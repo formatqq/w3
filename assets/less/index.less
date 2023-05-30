@@ -1,0 +1,69 @@
+@import "./reset.less";
+@import "./element.less";
+
+@main-color: #F0AE4C;
+
+//flex布局
+.d-flex {
+  display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+// page transition
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+
+.common-container {
+  margin-top: 60px;
+  min-height: calc(100vh - 160px);
+}
+@media (max-width: 1024px){ 
+  .common-container {
+    margin: 60px 20px 0;
+  }
+  .content {
+    width: 100%;
+  }
+}
+.warn-tips {
+  color: red;
+}
+
+// swiper
+.swiper-pagination {
+  bottom: 70px !important;
+}
+.swiper-pagination-bullet {
+  width: 40px !important;
+  border-radius: 0 !important;
+  height: 8px !important;
+  background: @main-color !important;
+}
+
+@media (max-width: 1024px){ 
+  .swiper-pagination {
+    display: none;
+  }
+}
