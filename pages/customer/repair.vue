@@ -95,7 +95,7 @@ const repairSitesListCN = [
     city: '中国. 深圳',
     contact: '刘朋',
     address: '深圳市龙岗区南湾街道日塑工业城a栋406仓库',
-    telephone: '+86 1519824688411111111111111111111',
+    telephone: '+86 15198246884',
   },
 ]
 
