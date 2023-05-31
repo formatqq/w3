@@ -65,7 +65,7 @@ const repairSitesListCN = [
     city: '中东迪拜',
     contact: '甘创',
     address: '迪拜，Al Quoz 4，21街，13栋',
-    telephone: '+971 58 591 6809',
+    telephone: '+971 58 591 68091111111111111111111111111111111111',
   },
   {
     city: '美国德克萨斯',
